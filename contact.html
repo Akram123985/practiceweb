@@ -1,36 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact Us</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-        <h1>Contact Us</h1>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="banner">
+      <h1>Contact Us</h1>
     </header>
     <nav>
-        <a href="index.html">Home</a>
-        <a href="basics.html">Basics</a>
-        <a href="cybersecurity.html">Cybersecurity</a>
-        <a href="media.html">Media Literacy</a>
-        <a href="contact.html">Contact</a>
+      <a href="index.html">Home</a>
+      <a href="basics.html">Basics</a>
+      <a href="cybersecurity.html">Cybersecurity</a>
+      <a href="media.html">Media Literacy</a>
+      <a href="contact.html">Contact</a>
     </nav>
     <div class="container">
-        <h2>Get in Touch</h2>
-        <form>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" required></textarea>
-            <button type="submit">Send</button>
-        </form>
+      <h2>Get in Touch</h2>
+      <p>Have any questions or need more information? Contact us!</p>
+      <form class="form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+      <p>
+        For futher queries you can also contact us using the information stated
+        below :
+      </p>
+      <p><b>Emails</b>:</p>
+      <ul>
+        <li><b>muqtader123@gmail.com</b></li>
+        <br />
+        <li><b>akram456@gmail.com</b></li>
+        <br />
+        <li><b>muzammil789@gmail.com</b></li>
+        <br />
+      </ul>
+      <h2 class="h2">Frequently Asked Questions (FAQ):</h2>
+      <div class="faq-container">
+        <div class="faq">
+          <button class="faq-question">
+            What is digital literacy?
+            <span class="arrow">&#x25BC;</span>
+          </button>
+          <div class="faq-answer">
+            Digital literacy is the ability to use digital technology,
+            communication tools, and the internet effectively and responsibly.
+          </div>
+        </div>
+
+        <div class="faq">
+          <button class="faq-question">
+            Why is cybersecurity important?
+            <span class="arrow">&#x25BC;</span>
+          </button>
+          <div class="faq-answer">
+            Cybersecurity protects personal data, financial information, and
+            digital identities from theft, fraud, and cyber threats.
+          </div>
+        </div>
+
+        <div class="faq">
+          <button class="faq-question">
+            How can I spot fake news?
+            <span class="arrow">&#x25BC;</span>
+          </button>
+          <div class="faq-answer">
+            You can spot fake news by checking sources, verifying information
+            with trusted websites, and looking for sensational or misleading
+            headlines.
+          </div>
+        </div>
+      </div>
     </div>
     <footer>
-        <p>&copy; 2025 Digital Literacy Project</p>
+      <p>&copy; 2025 Digital Literacy Project</p>
     </footer>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
