@@ -50,3 +50,10 @@ footer {
     color: white;
     margin-top: 20px;
 }
+.DL1{
+    padding-left:125px;
+    text-align:center;
+    width: 80%;
+    max-width: 800px;
+    border-radius: 10px;
+}
