@@ -16,19 +16,24 @@
       <a href="cybersecurity.html">Cybersecurity</a>
       <a href="media.html">Media Literacy</a>
       <a href="contact.html">Contact</a>
+      <a href="comments.html">Comments</a>
     </nav>
     <div class="container">
       <h2>Get in Touch</h2>
       <p>Have any questions or need more information? Contact us!</p>
-      <form class="form">
-        <b><label for="name">Name:</label></b>
+      <form action="/submit" method="POST">
+        <label for="name">Name:</label>
         <input type="text" id="name" name="name" required />
-        <b><label for="email">Email:</label></b>
+
+        <label for="email">Email:</label>
         <input type="email" id="email" name="email" required />
-        <b><label for="message">Message:</label></b>
+
+        <label for="message">Comment:</label>
         <textarea id="message" name="message" required></textarea>
+
         <button type="submit">Submit</button>
       </form>
+
       <p>
         For futher queries you can also contact us using the information stated
         below :
