@@ -128,4 +128,12 @@ footer {
 .comment-box p {
     margin: 5px 0;
 }
-
+.bullet{
+    list-style: none;
+    padding-left:0;
+}
+.image1{
+    height:500px;
+    width:auto;
+    padding-left: 90px;
+}
